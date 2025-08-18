@@ -69,5 +69,6 @@ int main()
 		}
 		else cerr<<"Unknown command!\n";
 	}
+	cout<<"Hello\n";
 	return 0;
 }
