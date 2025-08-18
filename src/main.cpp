@@ -67,7 +67,7 @@ int main()
 		{
 			wm.drawAll();
 		}
-		else cerr<<"Unknown command!\n";
+		else cout<<"Unknown command!\n";
 	}
 	cout<<"Hello\n";
 	return 0;
