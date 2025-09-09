@@ -33,6 +33,12 @@ bool WindowManager::isCellAvailable(Window* parent, int r, int c)
 	return true;
 }
 
+WindowManager& WindowManager::getInstance()
+{
+	static WindowManager instance;
+	return instance;
+}
+
 WindowManager::~WindowManager()
 {
 	for(WindowBase* e : elements) delete e;
